@@ -1,3 +1,8 @@
-from django.shortcuts import render
+from django.contrib import admin
 
-# Create your views here.
+from uapp.models import *
+
+
+
+# Register your models here.
+admin.site.register(Cliente)
