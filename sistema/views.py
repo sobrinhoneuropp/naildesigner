@@ -1,8 +1,15 @@
 from django.contrib import admin
 
-from uapp.models import *
-
+from .models import *
 
 
 # Register your models here.
 admin.site.register(Cliente)
+admin.site.register(Cliente)
+admin.site.register(Profissional)
+admin.site.register(Servico)
+admin.site.register(Agendamento)
+admin.site.register(Pagamento)
+
+
+
